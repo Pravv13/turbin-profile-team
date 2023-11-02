@@ -85,8 +85,12 @@ const employees = [
   },
 ];
 
-const handler = (req, res) => {
-  res.status(200).json({ status: true, statusCode: 200, employees });
-};
+// const handler = (req, res) => {
+//   res.status(200).json({ status: true, statusCode: 200, employees });
+// };
 
-module.exports = handler;
+// module.exports = handler;
+
+export default function handler(req, res) {
+  res.status(200).json({ message: "Hello from Next.js!" });
+}
