@@ -10,6 +10,9 @@ module.exports = {
       backgroundColor: {
         'custom color': '#FFFFFF',
       },
+      fontFamily:{
+        'poppins': ['Poppins', 'sans-serif']
+      },
     },
   },
   plugins: [],
